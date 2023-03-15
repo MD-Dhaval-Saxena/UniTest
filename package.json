@@ -16,6 +16,7 @@
   "dependencies": {
     "@openzeppelin/contracts": "^4.8.2",
     "@uniswap/v2-core": "github:Uniswap/v2-core",
+    "@uniswap/v2-periphery": "github:Uniswap/v2-periphery",
     "ganache-cli": "^6.12.2"
   }
 }
