@@ -2,7 +2,7 @@ const { ethers } = require("hardhat");
 
 async function main(){
     const UniFactory= await ethers.getContractFactory('UniswapV2Factory');
-    const unifactory=await UniFactory.deploy('0xE75DF387a3F47f1760d0Dd423b27d2eEFD59c6b9');
+    const unifactory=await UniFactory.deploy('Metamask wallet address');
     await unifactory.deployed();
 
 
